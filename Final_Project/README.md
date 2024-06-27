@@ -1,6 +1,6 @@
-# [DS 3] Keybinds - Final Challenge
-## Challenge 1
-You should aim to have your write-up structured as Iteration 1 and Iteration 2, where each iteration includes the current state of the prototype, what features you want to observe the customer using, your observations and their feedback, and how you will iterate based on the findings. In the next challenge, you will also be asked to include information in each iteration the ways you are characterizing the system. 
+# Keybinds 
+
+## Final Design
 
 ### Iteration 1
 ![alt text](Documentation/Fig/Image2.png)
@@ -31,8 +31,8 @@ Charging Port now on the the side, and the On/Off button on top to avoid acciden
 ![alt text](Documentation/Fig/Final1.png)
 ![alt text](Documentation/Fig/Final2.png)
 
+## Testing
 
-## Challenge 2
 ### Iteration 1 - System Reliability
 During the initial testing phase, we focused on evaluating the reliability of the Bluetooth Low Energy (BLE) connection between the Arduino Nano and the computer. Over the course of one hour, we observed *zero connection drops*. Additionally, we measured the latency in button press to action execution, finding an average latency of 20ms with a standard deviation of 5ms.
 ![alt text](Documentation/Fig/Datapath.jpg)
@@ -46,27 +46,18 @@ In the final phase of testing, we assessed the power consumption of the system a
 For comfort, we shared different customizations of grip with the customer. The customer liked this feel the most.
 
 
+## Design phase 1
 
+### Customer Persona
 
-
-
-
-
-
-
-
-
-
-### DS 1 & 2 Below
+Two of my favorite hobbies are drawing and playing video games while on voice call with friends. One common issue that comes up when doing either is a lack of keybinds. There’s no comfortable way to draw with the keyboard plugged into the tablet. The games I usually play take up a lot of keybinds, so there isn’t much left over for other applications (ex: Discord Game Overlay Features).  
+I want a controller that I can use in my left hand and resting on a table. It needs to have at least 4 buttons I can keybind to. It needs to connect to my computer either via bluetooth or USB-A.
 
 ![remote](/Documentation/Fig/remote.png)
 
-## DS1
-
-### Challenge 2:
+### Customer Survey
 
 Here are some exploratory questions we asked our customer:
-
 
 
 **1. Is it a remote that you hold in your hand, or does it sit stationary on a table?**
@@ -116,7 +107,7 @@ They should be easy to press, and it is important for them to be placed so I can
 
 We found there are small programmable keyboards available for purchase, and there are multiple sizes but there isn't one with 2x2 size as required by the customer. Also, most of them use mechanical keyboard which is not as portable as the customer required. The customer would like a 2x2 size because she wants her hand able to reach all the keys. Many existing keyboards can't switch automatically between apps, and the connections are not stable. Some don't support bluetooth. Some's key dial doesn't support multi-key presses, meaning that each key on mini controller must be the only key on keyboard, it can't be a combination.
 
-### Challenge 3:
+### Kano model analysis
 
 The metrics that we chose to track with the Kano model include:
 
@@ -126,7 +117,7 @@ The metrics that we chose to track with the Kano model include:
 - Battery powered - *Satisfier*
 - Good amount of buttons - *Linear*
 
-### Post-Survey Findings
+### General survey
 
 The method we chose to run the survey was a google form. We surveyed 10 people, with each team member contributing three people, plus the client. The results showed that there is a need for this product, at least within our survey of respondents. This is likely because the product doesn't present any questionable features that would turn away customers. Additionally, the need to have easily accessible keybinds doesn't only exist with drawing, but generally for navigating menus more effectively.
 
@@ -143,13 +134,11 @@ The method we chose to run the survey was a google form. We surveyed 10 people, 
 | Jesse       | Yes                                     | I expect it                                            | I dislike it                                            | Somewhat important                                           | I like it                                                    | I can tolerate it                                            | Somewhat important                                           | I expect it                                                  | I am neutral about it                        | Somewhat important                                           | I expect it                                        | I expect it                              | Somewhat important                                  | I am neutral about it                           | I expect it                                         | Somewhat important                                           |
 | Angelina    | Yes                                     | I expect it                                            | I dislike it                                            | Extremely important                                          | I like it                                                    | I can tolerate it                                            | Moderately important                                         | I like it                                                    | I can tolerate it                            | Moderately important                                         | I am neutral about it                              | I like it                                | Extremely important                                 | I expect it                                     | I like it                                           | Extremely Important                                          |
 
-## DS2
 
-### Challenge 1
 
 https://docs.google.com/presentation/d/187pOIV6F5fnQBTgCIqUqgqFnD4na6_eTl0GMjhVdOS0/edit?usp=sharing
 
-<u>The following is what we presented:</u>
+### Design Phase 1 Finding summary
 
 First, we performed a customer needs assessment. We surveyed 10 people of all different backgrounds, meaning not just artists. The main question we asked them is whether they would buy the product and 6 out of 10 people said yes. We asked them about low latency, automatic keybind switching, a physical keybind toggle, whether the device should be battery powered, and what amount of buttons felt right for the device. We performed this using the KANO survey model and we found that having low latency is a must, while everything else is an exciter.
 
@@ -157,7 +146,9 @@ Doing background research, we found out that there are two main ways to approach
 
 Our goal for this project is to make a device that the customer wants to use, to make a device that has a good enough lifespan, and software that can be easily tweaked.
 
-### Challenge 2
+### Design Phase 2
+
+### Customer survey
 
 **Is the Device Stationary?**
 
@@ -198,7 +189,7 @@ Our goal for this project is to make a device that the customer wants to use, to
 
 This feedback did cause us to make some changes to what we envisioned the product to look like. First, instead of accounting for three profiles, we only have to take into account two. This means that we can use a switch instead of a slider of some sort. Additionaly, the buttons that we were going to use changed. Initially, we were going to use clicky buttons, but now we decided to focus more on controller buttons and mechanical buttons.
 
-### Challenge 3
+### Prototype
 
 This initial prototype takes care of all of the communication needs that we have to perform with the remote. Basically, there are three tasks to do in this project. One is to get button inputs. Second is to send those inputs over Bluetooth. And third is to turn that communication into keyboard outputs on the computer. What this project does is the first two parts.
 
