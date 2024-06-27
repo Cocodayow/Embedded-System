@@ -125,9 +125,9 @@ Doing background research, we found out that there are two main ways to approach
 
 Our goal for this project is to make a device that the customer wants to use, to make a device that has a good enough lifespan, and software that can be easily tweaked.
 
-### Design Phase 2
+## Design Phase 2
 
-#### Customer Survey
+### Customer Survey
 **Is the Device Stationary?**
 - She wants to be able to hold it, but it can also be placed on a table
 
