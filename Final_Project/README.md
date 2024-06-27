@@ -3,8 +3,8 @@
 ## Final Design
 
 ### Iteration 1
-![alt text](Documentation/Fig/Image2.png)
-![alt text](Documentation/Fig/Image1.png)
+<img src="Documentation/Fig/Image2.png" alt="Image 2" width="300">
+<img src="Documentation/Fig/Image1.png" alt="Image 1" width="300">
 The current prototype is simple button layout with an on-off button. We are not sure if the customer prefers state LEDs and how charging show me supplied. The initial design featured a simple button layout with an on-off button, and the physical prototype was created using a blue-colored box. This prototype allowed our team to understand basic functionality and gather initial feedback. Although the exact dimensions of the box were flexible, the primary aim was to ensure all elements worked together seamlessly and the design was user-friendly.
 
 We embedded a rechargable USB C port. 
