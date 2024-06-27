@@ -24,18 +24,18 @@ Additionally, the design was modified to accommodate a 9V battery based on the d
 
 As a result, our customer was pleased with the fit of the remote in her hand. We demonstrated the latency as well to the customer and she was happy with it. While she was happy with the buttons, we still needed to test the toggle button. The on/off button was initially placed on the front of the box, but the customer preferred it to be on the top to avoid accidental activation or deactivation when using the other buttons. Placing the on/off button on the front increased the risk of unintentionally turning the device on or off while pressing other buttons, which could disrupt the user experience.
 
-
-![alt text](<Documentation/Fig/Screenshot 2024-06-04 at 4.55.54 PM.jpeg>)
-![alt text](<Documentation/Fig/Screenshot 2024-06-04 at 4.56.11 PM.jpeg>)
+<img src="Documentation/Fig/Screenshot 2024-06-04 at 4.55.54 PM.jpeg" alt="Image 1" width="300">
+<img src="Documentation/Fig/Screenshot 2024-06-04 at 4.56.11 PM.jpeg" alt="Image 1" width="300">
 Charging Port now on the the side, and the On/Off button on top to avoid accidental on and off. 
-![alt text](Documentation/Fig/Final1.png)
-![alt text](Documentation/Fig/Final2.png)
+<img src="Documentation/Fig/Final1.png" alt="Image 1" width="300">
+<img src="Documentation/Fig/Final2.png" alt="Image 1" width="300">
 
 ## Testing
 
 ### Iteration 1 - System Reliability
 During the initial testing phase, we focused on evaluating the reliability of the Bluetooth Low Energy (BLE) connection between the Arduino Nano and the computer. Over the course of one hour, we observed *zero connection drops*. Additionally, we measured the latency in button press to action execution, finding an average latency of 20ms with a standard deviation of 5ms.
-![alt text](Documentation/Fig/Datapath.jpg)
+
+<img src="Documentation/Fig/Datapath.jpg" alt="Image 1" width="300">
 
 ### Iteration 2 - Button Response
 During the initial testing phase, we focused on evaluating the reliability BLE between the Arduino Nano and the computer. Over the course of one hour, we observed zero connection. Additionally, we measured the latency in button press to action execution, finding an average latency of 20ms with a standard deviation of 5ms.
@@ -53,7 +53,7 @@ For comfort, we shared different customizations of grip with the customer. The c
 Two of my favorite hobbies are drawing and playing video games while on voice call with friends. One common issue that comes up when doing either is a lack of keybinds. There’s no comfortable way to draw with the keyboard plugged into the tablet. The games I usually play take up a lot of keybinds, so there isn’t much left over for other applications (ex: Discord Game Overlay Features).  
 I want a controller that I can use in my left hand and resting on a table. It needs to have at least 4 buttons I can keybind to. It needs to connect to my computer either via bluetooth or USB-A.
 
-![remote](/Documentation/Fig/remote.png)
+<img src="Documentation/Fig/remote.png" alt="Image 1" width="300">
 
 ### Customer Survey
 
@@ -100,8 +100,6 @@ Low latency
 
 They should be easy to press, and it is important for them to be placed so I can press all of them.
 
-
-![](/Documentation/Fig/remote.png)
 
 #### Background search
 
