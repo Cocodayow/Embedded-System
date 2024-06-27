@@ -6,8 +6,8 @@ We learn a wide gamut of hardware and software prototyping tools including micro
 
 There are lab assignments which will all be very hands-on, and reports for each assignment. 
 
-[Lab assignemnt] ()
+[Lab assignemnt] (https://github.com/Cocodayow/Embedded-System/tree/main/Reports)
 
 For the final project, we designed a customizable keybind, it remembers the shortcuts on the keyboard, and makes it eaiser for games and other softwares.
 
-[Final project] ()
+[Final project] (https://github.com/Cocodayow/Embedded-System/tree/main/Final_Project)
