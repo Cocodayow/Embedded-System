@@ -1,3 +1,3 @@
 # Assignments
 
-Each folder contains a weekly report
+There's a weekly report in each folder
